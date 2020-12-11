@@ -1,7 +1,10 @@
 body{
   margin: 45px;
-  margin-left:100px;
-  margin-right:100px;
+  margin-left:auto;
+  margin-right:auto;
+  margin: auto;
+  width: 800px;
+  border: 1px solid black;
 }
 
 header{
@@ -14,14 +17,24 @@ header img:first-child{
   
 }
 
-header div:nth-child(2){
-display: block;
-margin-left: 50px;
+header img:nth-child(6) {
+  margin-right: 10px;
 }
+
 h2{
   font-family: Brush Script MT, Brush Script Std, cursive;
+  margin-left: 10px;
+  font-size: 28px;
+  display: inline-block;
 
   /* look for cursive font  */
+}
+header h3 {
+  font-size: 15px;
+  opacity: .5;
+  font-family: sans-serif;
+  margin-left: 55px;
+  margin-top: 2px;
 }
 header ul{
   float: right;
@@ -30,12 +43,17 @@ header li{
   display:inline;
   
 }
+header li:last-child {
+  margin-right: 75px;
+}
 header img{
   margin: 1px;
 }
 
 main{
+  margin:auto;
   margin-top: 75px;
+
 }
 
 h1{
@@ -44,12 +62,88 @@ h1{
   font-family: sans-serif;
 
 }
-/* main img:first-child{
 
-} */
+main h3:first-child {
+  opacity: .5;
+  font-family: sans-serif;
+  font-size: 15px;
+  display: inline-block;
+}
 main img:nth-child(2){
   /* width: ; */
 }
 #print{
   float:right;
+  font-family: sans-serif;
+  opacity: 50%;
+  font-size: 15px;
+  margin-right: 75px;
+}
+
+main p {
+  margin-top: 20px;
+  width: 721px;
+  text-indent: 30px;
+}
+#hero {
+  width: 721px;
+  margin: auto;
+  margin-top: 30px;
+}
+#notepad {
+  width: 721px;
+}
+#recipe {
+  position: relative;
+}
+#recipe ul {
+  position: absolute;
+}
+#recipe li {
+  list-style-type: square;
+  list-style-position: inside;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+#left {
+  position: absolute;
+  top: 28px;
+  left: 40px;
+}
+#right {
+  position: absolute;
+  top: 28px;
+  left: 400px;
+}
+footer {
+  margin-top: 30px;
+}
+footer img:first-child{
+  float: left;
+}
+footer h3{
+  font-family: sans-serif;
+  margin-left: 10px;
+  font-size: 16px;
+  display: inline-block;
+}
+footer p {
+  margin-top: 10px;
+  margin-left: 10px;
+  /* text-indent: 0px; */
+}
+/* article{
+  margin-left: 10px;
+} */
+section {
+  text-align: center;
+  margin-top: 30px;
+}
+#movePlease {
+  opacity: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
