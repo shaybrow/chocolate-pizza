@@ -1,0 +1,55 @@
+body{
+  margin: 45px;
+  margin-left:100px;
+  margin-right:100px;
+}
+
+header{
+display: block;
+
+}
+header img:first-child{
+  float: left;
+
+  
+}
+
+header div:nth-child(2){
+display: block;
+margin-left: 50px;
+}
+h2{
+  font-family: Brush Script MT, Brush Script Std, cursive;
+
+  /* look for cursive font  */
+}
+header ul{
+  float: right;
+}
+header li{
+  display:inline;
+  
+}
+header img{
+  margin: 1px;
+}
+
+main{
+  margin-top: 75px;
+}
+
+h1{
+  font-size: 34px;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+/* main img:first-child{
+
+} */
+main img:nth-child(2){
+  /* width: ; */
+}
+#print{
+  float:right;
+}
